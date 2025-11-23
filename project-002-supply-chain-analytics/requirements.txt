@@ -1,0 +1,44 @@
+# Supply Chain Analytics - Requirements
+# ======================================
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine learning & clustering
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# dbt for transformations
+dbt-core>=1.6.0
+dbt-postgres>=1.6.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.16.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+
+# Statistical analysis
+statsmodels>=0.14.0
+
+# Database connectivity
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Configuration
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.7.0
+ruff>=0.0.285
+mypy>=1.5.0
